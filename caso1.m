@@ -1,0 +1,1 @@
+function b=caso1(x,y) f=@(b)(b^2)*(norm(x,2))^2-2*b*x*y'+(norm(y,2))^2; [b, obj, info, iter, nf, lambda] =sqp(1,f,[],[],[],[], 300, 10*e^-15);   endfunction
